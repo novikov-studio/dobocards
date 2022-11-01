@@ -1,11 +1,11 @@
 {
-    "name": "Доброкарты",
-    "short_name": "Доброкарты",
+    "name": "Р”РѕР±СЂРѕРєР°СЂС‚С‹",
+    "short_name": "Р”РѕР±СЂРѕРєР°СЂС‚С‹",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#FFFFFF",
+    "background_color": "#F1EFEB",
     "theme_color": "#7CAEA9",
-    "description": "Доброкарты - больше, чем просто открытки",
+    "description": "Р”РѕР±СЂРѕРєР°СЂС‚С‹ - Р±РѕР»СЊС€Рµ, С‡РµРј РїСЂРѕСЃС‚Рѕ РѕС‚РєСЂС‹С‚РєРё",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
