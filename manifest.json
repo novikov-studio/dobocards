@@ -7,7 +7,14 @@
     "theme_color": "#7CAEA9",
     "description": "Доброкарты - больше, чем просто открытки",
     "orientation": "portrait-primary",
-    "prefer_related_applications": false,
+    "prefer_related_applications": true,
+    "related_applications": [
+   	{
+           "platform": "play",
+           "url": "https://play.google.com/store/apps/details?id=studio.novikov.dobrocards",
+           "id": "studio.novikov.dobrocards"
+        }
+    ],
     "icons": [
         {
             "src": "icons/Icon-192.png",
