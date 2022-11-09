@@ -36814,7 +36814,7 @@ r=s.fy
 return A.aDm(A.dB(A.a([A.auy("assets/images/logo.png",r,q,q,!1,p,q),B.l2,A.da("\u041f\u0440\u043e\u0435\u043a\u0442, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u043f\u043e\u043c\u043e\u0433\u0430\u0435\u0442 \u043b\u044e\u0434\u044f\u043c\n\u0431\u044b\u0442\u044c \u0431\u043b\u0438\u0436\u0435 \u043a \u0441\u0435\u0431\u0435 \u0438 \u0434\u0440\u0443\u0433 \u043a \u0434\u0440\u0443\u0433\u0443",q,q,q,q,q,q,q,s.RG.c,B.aE,q,q),B.ws,A.ox(A.hO(B.Ft,B.I,B.T,B.U),new A.bO(r,q,32,q),q)],t.p),B.I,B.b_,B.U),B.lI)}}
 A.S6.prototype={
 D(a){var s=null,r=A.fl(s,s,A.Z(a).ay.f,s,s,s,s,s,s,s,s,14,s,s,s,s,s,!0,s,s,s,s,s,s,s,s)
-return A.dC(A.dB(A.a([B.PW,B.KW,A.da("\u0412\u0435\u0440\u0441\u0438\u044f 2.0",s,s,s,s,s,s,s,s,s,s,s),B.PL,B.KX,A.NI(B.PR,new A.ajQ(a),s),A.NI(B.PT,new A.ajR(),s),B.KS],t.p),B.I,B.b_,B.U),s,B.W,!0,r,s,s,B.N)}}
+return A.dC(A.dB(A.a([B.PW,B.KW,A.da("\u0412\u0435\u0440\u0441\u0438\u044f 2.1.0",s,s,s,s,s,s,s,s,s,s,s),B.PL,B.KX,A.NI(B.PR,new A.ajQ(a),s),A.NI(B.PT,new A.ajR(),s),B.KS],t.p),B.I,B.b_,B.U),s,B.W,!0,r,s,s,B.N)}}
 A.ajQ.prototype={
 $0(){A.aLr(this.a)},
 $S:0}
