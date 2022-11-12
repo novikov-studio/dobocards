@@ -22409,9 +22409,9 @@ if(a.getUint32(6,!1)===1246120262)return B.c1
 if(a.getUint32(8,!1)===1464156752)return B.np
 throw A.c(A.eb("Unknown image type"))},
 asq(a,b,c){return A.aLp(a,b,c)},
-aLp(a,b,c){var s=0,r=A.N(t.y),q,p,o,n,m,l,k,j,i,h,g,f,e
-var $async$asq=A.G(function(a0,a1){if(a0===1)return A.K(a1,r)
-while(true)switch(s){case 0:e=!1
+aLp(a,b,c){var s=0,r=A.N(t.y),q,p,o,n,m,l,k,j,i,h,g,f,e,d
+var $async$asq=A.G(function(a1,a2){if(a1===1)return A.K(a2,r)
+while(true)switch(s){case 0:d=!1
 try{l=c.b
 k="image/"+l
 p=(self.URL||self.webkitURL).createObjectURL(A.atj([a],k))
@@ -22421,22 +22421,20 @@ i=o.createElement("a")
 t.xz.a(i)
 i.href=p
 i.type=k
-i.target="_parent"
-i.rel="noopener noreferrer"
 k=i.style
-h=c===B.c1
-g=h?"jpg":l
-k.display=b+"."+g
-if(h)l="jpg"
-i.download=b+"_p."+l
+h=b+"."
+g=c===B.c1
+f=g?"jpg":l
+k.display=h+f
+i.download=h+(g?"jpg":l)
 n=i
 j.body.appendChild(n)
 J.aBg(n)
-j=j.body
-j.toString
-A.aHa(j,n)
-e=!0}catch(d){m=A.ad(d)
-A.qt().$1(A.j(m))}q=e
+l=j.body
+l.toString
+A.aHa(l,n)
+d=!0}catch(a0){m=A.ad(a0)
+A.qt().$1(A.j(m))}q=d
 s=1
 break
 case 1:return A.L(q,r)}})
