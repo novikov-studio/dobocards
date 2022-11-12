@@ -22422,6 +22422,7 @@ t.xz.a(i)
 i.href=p
 i.type=k
 i.target="_blank"
+i.rel="noopener noreferrer"
 k=i.style
 h=b+"."
 g=c===B.c1
