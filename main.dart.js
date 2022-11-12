@@ -7387,7 +7387,7 @@ return A.D(A.aqQ(),$async$x7)
 case 3:if(!d){s=1
 break}s=4
 return A.D(A.LA(B.c.mg(b.giE(b),"{}","2"),!1,b.geD(b),!b.gcS()),$async$x7)
-case 4:if(d)A.ZL(p,"\u0421\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u043e \u0432 \u0433\u0430\u043b\u0435\u0440\u0435\u044e",null,3000,null)
+case 4:if(d)A.ZL(p,"\u0421\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u043e \u0432 \u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0438",null,3000,null)
 else A.ZL(p,"\u041e\u0448\u0438\u0431\u043a\u0430 \u043f\u0440\u0438 \u0441\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u0438",null,3000,null)
 case 1:return A.L(q,r)}})
 return A.M($async$x7,r)},
@@ -22413,22 +22413,25 @@ aLp(a,b,c){var s=0,r=A.N(t.y),q,p,o,n,m,l,k,j,i,h,g,f,e,d
 var $async$asq=A.G(function(a1,a2){if(a1===1)return A.K(a2,r)
 while(true)switch(s){case 0:d=!1
 try{l=c.b
-p=(self.URL||self.webkitURL).createObjectURL(A.atj([a],"image/"+l))
-k=document
-o=k
-j=o.createElement("a")
-t.xz.a(j)
-j.href=p
-i=j.style
+k="image/"+l
+p=(self.URL||self.webkitURL).createObjectURL(A.atj([a],k))
+j=document
+o=j
+i=o.createElement("a")
+t.xz.a(i)
+i.href=p
+i.type=k
+i.target="_blank"
+k=i.style
 h=b+"."
 g=c===B.c1
 f=g?"jpg":l
-i.display=h+f
-j.download=h+(g?"jpg":l)
-n=j
-k.body.appendChild(n)
+k.display=h+f
+i.download=h+(g?"jpg":l)
+n=i
+j.body.appendChild(n)
 J.aBg(n)
-l=k.body
+l=j.body
 l.toString
 A.aHa(l,n)
 d=!0}catch(a0){m=A.ad(a0)
