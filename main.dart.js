@@ -22413,24 +22413,22 @@ aLp(a,b,c){var s=0,r=A.N(t.y),q,p,o,n,m,l,k,j,i,h,g,f,e,d
 var $async$asq=A.G(function(a1,a2){if(a1===1)return A.K(a2,r)
 while(true)switch(s){case 0:d=!1
 try{l=c.b
-k="image/"+l
-p=(self.URL||self.webkitURL).createObjectURL(A.atj([a],k))
-j=document
-o=j
-i=o.createElement("a")
-t.xz.a(i)
-i.href=p
-i.type=k
-k=i.style
+p=(self.URL||self.webkitURL).createObjectURL(A.atj([a],"image/"+l))
+k=document
+o=k
+j=o.createElement("a")
+t.xz.a(j)
+j.href=p
+i=j.style
 h=b+"."
 g=c===B.c1
 f=g?"jpg":l
-k.display=h+f
-i.download=h+(g?"jpg":l)
-n=i
-j.body.appendChild(n)
+i.display=h+f
+j.download=h+(g?"jpg":l)
+n=j
+k.body.appendChild(n)
 J.aBg(n)
-l=j.body
+l=k.body
 l.toString
 A.aHa(l,n)
 d=!0}catch(a0){m=A.ad(a0)
