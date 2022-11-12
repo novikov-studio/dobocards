@@ -22421,14 +22421,14 @@ i=o.createElement("a")
 t.xz.a(i)
 i.href=p
 i.type=k
-i.target="_self"
+i.target="_parent"
 i.rel="noopener noreferrer"
 k=i.style
 h=c===B.c1
 g=h?"jpg":l
 k.display=b+"."+g
 if(h)l="jpg"
-i.download=b+"_self."+l
+i.download=b+"_p."+l
 n=i
 j.body.appendChild(n)
 J.aBg(n)
